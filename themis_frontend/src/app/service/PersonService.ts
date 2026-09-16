@@ -1,0 +1,28 @@
+const PersonService = {
+  async createPerson({ data }: any) {
+    return Promise.resolve({ data: { success: true, data: { id: Date.now() } } });
+  },
+  async getPersonByEmail(email: string) {
+    return Promise.resolve({ data: { data: { id: 123, email } } });
+  },
+  async getPersonById(id: number) {
+    return Promise.resolve({ 
+      data: { 
+        data: { 
+          id, 
+          name: 'Test User', 
+          lastname: 'Test LastName', 
+          email: 'test@example.com', 
+          phone: 1234567890,
+          document: '12345678',
+          roleList: [{ name: 'User' }]
+        } 
+      } 
+    });
+  },
+  async deletePerson(id: number) {
+    return Promise.resolve({ data: { success: true } });
+  }
+};
+
+export default PersonService;

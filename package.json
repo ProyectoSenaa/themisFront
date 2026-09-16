@@ -1,0 +1,32 @@
+{
+  "name": "themisfront",
+  "version": "1.0.0",
+  "description": "proyecto para novedades",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senaFactory/themisFront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/senaFactory/themisFront/issues"
+  },
+  "homepage": "https://github.com/senaFactory/themisFront#readme",
+  "dependencies": {
+    "@react-email/components": "^0.3.1",
+    "apollo-upload-client": "^18.0.1",
+    "date-fns": "^4.1.0",
+    "graphql-ws": "^6.0.6",
+    "react-day-picker": "^9.8.0",
+    "recharts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/recharts": "^2.0.1"
+  }
+}
